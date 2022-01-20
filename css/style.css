@@ -31,6 +31,7 @@ body {
     height: 20.5em;
     width: 36em;
 }
+/* Main */
 
 .mainThreeLeft {
     background-color: rgb(100, 237, 118);
@@ -38,7 +39,7 @@ body {
     
     height: 20.5em;
     width: 10.5em;
-
+ 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -48,10 +49,14 @@ body {
 
 .mainThreeMid {
     background-color: rgb(140, 20, 220);
+    padding: 0%;
 
     height: 20.5em;
     width: 15em;
 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
 }
 
@@ -68,11 +73,36 @@ body {
 
 }
 
-.leftTopButton {
-    background-color: burlywood;
+/* Left */
 
-    height: 2em;
+.leftTopButton {
+    display: flex;
+    flex-direction: row;
+
     width: 8em;
+    height: 2em;
+
+}
+
+.leftTopButton1 {
+    background-color: darkred;
+    
+    display: flex;
+
+    width: 2em;
+    height: 2em;
+    
+}
+
+.leftTopButton2 {
+    background-color: darkred;
+
+    display: flex;
+    
+
+    width: 0;
+    height: 0;
+ 
 }
 
 .leftTriangleTop {
@@ -96,6 +126,32 @@ body {
     height: 4.5em;
     width: 10.5em;
 }
+/* Mid */
+
+.screenContainer {
+    background-color: cyan;
+    margin-top: 3em;
+
+    height: 13em;
+    width: 14em;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.screen {
+    background-color: darkkhaki;
+
+    height: 10.5em;
+    width: 13em;
+
+    margin-top: 1em;
+}
+
+/* Right */
 
 .rightTopButton {
     background-color: burlywood;
@@ -125,3 +181,7 @@ body {
     height: 4.5em;
     width: 10.5em;
 }
+
+
+
+
