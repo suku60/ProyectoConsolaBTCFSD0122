@@ -34,12 +34,14 @@ body {
 
 .mainThreeLeft {
     background-color: rgb(100, 237, 118);
+    padding: 0%;
     
     height: 20.5em;
     width: 10.5em;
 
     display: flex;
     flex-direction: column;
+    align-items: center;
 
   
 }
@@ -55,36 +57,69 @@ body {
 
 .mainThreeRight {
     background-color: rgb(100, 237, 118);
+    padding: 0%;
     
     height: 20.5em;
     width: 10.5em;
 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
 
 .leftTopButton {
-    background-color: crimson;
+    background-color: burlywood;
 
     height: 2em;
     width: 8em;
 }
 
 .leftTriangleTop {
-    background-color: coral;
+    background-color: cyan;
     
     height: 2em;
     width: 10.5em;
 
 }
 
-
 .leftBoxContainer {
     background-color: crimson;
 
-    height: 15em;
+    height: 14em;
     width: 10.5em;
 }
 
 .leftTriangleBot {
+    background-color: green;
+
+    height: 4.5em;
+    width: 10.5em;
+}
+
+.rightTopButton {
+    background-color: burlywood;
+
+    height: 2em;
+    width: 8em;
+}
+
+.rightTriangleTop {
+    background-color: cyan;
+    
+    height: 2em;
+    width: 10.5em;
+
+}
+
+.rightBoxContainer {
+    background-color: crimson;
+
+    height: 14em;
+    width: 10.5em;
+}
+
+.rightTriangleBot {
     background-color: green;
 
     height: 4.5em;
