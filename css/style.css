@@ -32,7 +32,7 @@ body {
     width: 36em;
 }
 
-.mainThreeOne {
+.mainThreeLeft {
     background-color: rgb(100, 237, 118);
     
     height: 20.5em;
@@ -44,7 +44,7 @@ body {
   
 }
 
-.mainThreeTwo {
+.mainThreeMid {
     background-color: rgb(140, 20, 220);
 
     height: 20.5em;
@@ -53,7 +53,7 @@ body {
 
 }
 
-.mainThreeThree {
+.mainThreeRight {
     background-color: rgb(100, 237, 118);
     
     height: 20.5em;
@@ -61,3 +61,32 @@ body {
 
 }
 
+.leftTopButton {
+    background-color: crimson;
+
+    height: 2em;
+    width: 8em;
+}
+
+.leftTriangleTop {
+    background-color: coral;
+    
+    height: 2em;
+    width: 10.5em;
+
+}
+
+
+.leftBoxContainer {
+    background-color: crimson;
+
+    height: 15em;
+    width: 10.5em;
+}
+
+.leftTriangleBot {
+    background-color: green;
+
+    height: 4.5em;
+    width: 10.5em;
+}
