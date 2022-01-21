@@ -24,7 +24,7 @@ body {
     background-color: rgba(100, 237, 118, 0);
     
     height: 20.5em;
-    width: 11.5em;
+    width: 9.5em;
  
     display: flex;
     flex-direction: column;
@@ -34,46 +34,62 @@ body {
     background-color: rgba(100, 237, 118, 0);
     
     height: 20.5em;
-    width: 13em;
+    width: 15em;
  
     display: flex;
     flex-direction: column;
 }
 
-/* Main Three Right  */
-
 .mainThreeRight {
     background-color: rgba(100, 237, 118, 0);
     
     height: 20.5em;
-    width: 11.5em;
+    width: 9.5em;
  
     display: flex;
     justify-content: left;
     align-items: column;
 }
 
+/* Level 2 mainThreeLeft */
+
 .mainThreeLeft1 {
-    background-color: chartreuse;
+    background-color: rgba(128, 255, 0, 0);
 
     height: 0.5em;
-    width: 11.5em;
+    width: 9.5em;
 
-    display: none
 }
 .mainThreeLeft2 {
-    background-color: chartreuse;
+    background-color: rgba(128, 255, 0, 0);
 
     height: 1.8em;
-    width: 11.5em;
+    width: 9.5em;
 
-    display: flex
+    display: flex;
+    flex-direction: row;
+}
+.mainThreeLeft2_1 {
+    background-color: rgba(250, 128, 114, 0);
+
+    height: 1.8em;
+    width: 7.7em; 
+
+}
+.mainThreeLeft2_2 {
+    background-color: salmon;
+
+    height: 1.8em;
+    width: 1.8em;
+
+    border-radius: 100% 0% 0% 0%;
+    transform: ;
 }
 .mainThreeLeft3 {
     background-color: chartreuse;
 
     height: 1.8em;
-    width: 11.5em;
+    width: 9.5em;
 
     display: flex
 }
@@ -81,7 +97,7 @@ body {
     background-color: chartreuse;
 
     height: 1.8em;
-    width: 11.5em;
+    width: 9.5em;
 
     display: flex
 }
@@ -89,7 +105,7 @@ body {
     background-color: chartreuse;
 
     height: 9em;
-    width: 11.5em;
+    width: 9.5em;
 
     display: flex
 }
@@ -97,7 +113,7 @@ body {
     background-color: chartreuse;
 
     height: 1.8em;
-    width: 11.5em;
+    width: 9.5em;
 
     display: flex
 }
@@ -105,32 +121,30 @@ body {
     background-color: chartreuse;
 
     height: 2.1em;
-    width: 11.5em;
+    width: 9.5em;
 
     display: flex
 }
 .mainThreeLeft8 {
-    background-color: chartreuse;
+    background-color: rgba(128, 255, 0, 0);
 
     height: 1.7em;
-    width: 11.5em;
-
-    display: none
+    width: 9.5em;
 }
 
-/* Main Three Mid */
+/* Level 2 mainThreeMid */
 
 .mainThreeMid1 {
     background-color: rgba(139, 69, 19, 0);
     
     height: 0.5em;
-    width: 13em;
+    width: 15em;
 }
 .mainThreeMid1_1 {
     background-color: chartreuse;
     
     height: 0.5em;
-    width: 6.5em;
+    width: 7.5em;
 
     border-radius: 100% 0% 0% 0%;
 }
@@ -138,7 +152,7 @@ body {
     background-color: chartreuse;
     
     height: 0.5em;
-    width: 6.5em;
+    width: 7.5em;
 
     border-radius: 0% 100% 0% 0%;
 }
@@ -146,19 +160,19 @@ body {
     background-color: chartreuse;
     
     height: 18.3em;
-    width: 13em;
+    width: 15em;
 }
 .mainThreeMid3 {
-    background-color: chartreuse;
+    background-color: rgba(128, 255, 0, 0);
     
     height: 1.7em;
-    width: 13em;
+    width: 15em;
 }
 .mainThreeMid3_1 {
     background-color: chartreuse;
     
     height: 1.7em;
-    width: 6.5em;
+    width: 7.5em;
 
     border-radius: 0% 0% 0% 100%;
 }
@@ -166,7 +180,7 @@ body {
     background-color: rgba(139, 69, 19, 0);
     
     height: 1.7em;
-    width: 6.5em;
+    width: 7.5em;
 
     border-radius: 0% 0% 100% 0%;
 }
