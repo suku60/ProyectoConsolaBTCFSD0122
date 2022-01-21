@@ -23,7 +23,7 @@ body {
     align-items: row;
     justify-content: row;
   
-    background-color: rgb(255, 0, 0);
+    background-color: rgba(255, 0, 0, 0);
 
     height: 20.5em;
     width: 36em;
@@ -31,7 +31,7 @@ body {
 /* Main */
 
 .mainThreeLeft {
-    background-color: rgb(100, 237, 118);
+    background-color: rgba(100, 237, 118, 0);
     padding: 0%;
     
     height: 20.5em;
@@ -58,7 +58,7 @@ body {
 }
 
 .mainThreeRight {
-    background-color: rgb(100, 237, 118);
+    background-color: rgba(100, 237, 118, 0);
     padding: 0%;
     
     height: 20.5em;
@@ -153,6 +153,7 @@ body {
 
     width: 8em;
     height: 2em;
+
 }
 
 .rightTopButton1 {
@@ -160,6 +161,8 @@ body {
 
     width: 4em;
     height: 2em;
+
+    border-radius: 0% 100% 0% 0%;
     
 }
 
