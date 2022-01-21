@@ -1,0 +1,186 @@
+body {
+    background-color: rgba(0, 0, 255, 0.363);
+
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.universe {
+    display: flex;
+    align-items: row;
+    justify-content: row;
+  
+    background-color: rgba(255, 0, 0, 0);
+
+    height: 20.5em;
+    width: 36em;
+}
+.mainThreeLeft {
+    background-color: rgba(100, 237, 118, 0);
+    
+    height: 20.5em;
+    width: 11.5em;
+ 
+    display: flex;
+    flex-direction: column;
+}
+
+.mainThreeMid {
+    background-color: rgba(100, 237, 118, 0);
+    
+    height: 20.5em;
+    width: 13em;
+ 
+    display: flex;
+    flex-direction: column;
+}
+
+/* Main Three Right  */
+
+.mainThreeRight {
+    background-color: rgba(100, 237, 118, 0);
+    
+    height: 20.5em;
+    width: 11.5em;
+ 
+    display: flex;
+    justify-content: left;
+    align-items: column;
+}
+
+.mainThreeLeft1 {
+    background-color: chartreuse;
+
+    height: 0.5em;
+    width: 11.5em;
+
+    display: none
+}
+.mainThreeLeft2 {
+    background-color: chartreuse;
+
+    height: 1.8em;
+    width: 11.5em;
+
+    display: flex
+}
+.mainThreeLeft3 {
+    background-color: chartreuse;
+
+    height: 1.8em;
+    width: 11.5em;
+
+    display: flex
+}
+.mainThreeLeft4 {
+    background-color: chartreuse;
+
+    height: 1.8em;
+    width: 11.5em;
+
+    display: flex
+}
+.mainThreeLeft5 {
+    background-color: chartreuse;
+
+    height: 9em;
+    width: 11.5em;
+
+    display: flex
+}
+.mainThreeLeft6 {
+    background-color: chartreuse;
+
+    height: 1.8em;
+    width: 11.5em;
+
+    display: flex
+}
+.mainThreeLeft7 {
+    background-color: chartreuse;
+
+    height: 2.1em;
+    width: 11.5em;
+
+    display: flex
+}
+.mainThreeLeft8 {
+    background-color: chartreuse;
+
+    height: 1.7em;
+    width: 11.5em;
+
+    display: none
+}
+
+/* Main Three Mid */
+
+.mainThreeMid1 {
+    background-color: rgba(139, 69, 19, 0);
+    
+    height: 0.5em;
+    width: 13em;
+}
+.mainThreeMid1_1 {
+    background-color: chartreuse;
+    
+    height: 0.5em;
+    width: 6.5em;
+
+    border-radius: 100% 0% 0% 0%;
+}
+.mainThreeMid1_2 {
+    background-color: chartreuse;
+    
+    height: 0.5em;
+    width: 6.5em;
+
+    border-radius: 0% 100% 0% 0%;
+}
+.mainThreeMid2 {
+    background-color: chartreuse;
+    
+    height: 18.3em;
+    width: 13em;
+}
+.mainThreeMid3 {
+    background-color: chartreuse;
+    
+    height: 1.7em;
+    width: 13em;
+}
+.mainThreeMid3_1 {
+    background-color: chartreuse;
+    
+    height: 1.7em;
+    width: 6.5em;
+
+    border-radius: 0% 0% 0% 100%;
+}
+.mainThreeMid3_2 {
+    background-color: rgba(139, 69, 19, 0);
+    
+    height: 1.7em;
+    width: 6.5em;
+
+    border-radius: 0% 0% 100% 0%;
+}
+
+
+/* <div class="mainThreeMid">
+            <div class="mainThreeMid1">
+                <div class="mainThreeMid1_1"></div>
+                <div class="mainThreeMid1_2"></div>
+            </div>
+            <div class="mainThreeMid2"></div>
+            <div class="mainThreeMid3">
+                
+                <div class="mainThreeMid3_1"></div>
+                <div class="mainThreeMid3_2"></div>
+            </div>
+        */
