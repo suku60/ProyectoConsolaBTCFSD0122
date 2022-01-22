@@ -1,5 +1,5 @@
 body {
-    background-color: rgba(0, 0, 255, 0.363);
+    background-color: blue;
 
     width: 100vw;
     height: 100vh;
@@ -14,187 +14,256 @@ body {
     display: flex;
     align-items: row;
     justify-content: row;
-  
-    background-color: rgba(255, 0, 0, 0);
+
+    background-color: red;
 
     height: 20.5em;
-    width: 36em;
+    width: 18em;
 }
-.mainThreeLeft {
-    background-color: rgba(100, 237, 118, 0);
-    
-    height: 20.5em;
-    width: 9.5em;
- 
+
+/* side */
+
+.side {
+    background-color: chartreuse;
+
     display: flex;
     flex-direction: column;
+    align-items: row;
+    justify-content: row;
+
+    height: 20.5em;
+    width: 9.5em;
+
+}
+/* side lvl 2 */
+.side_1 {
+    background-color: rgb(151, 231, 71);
+
+    height: 0.8em;
+    width: inherit;
+
 }
 
-.mainThreeMid {
-    background-color: rgba(100, 237, 118, 0);
-    
-    height: 20.5em;
-    width: 15em;
- 
+.side_2 {
+    background-color: rgb(100, 172, 28);
+
+    height: 3em;
+    width: inherit;
+
+    display: flex;
+    align-items: row;
+
+}
+
+.side_3 {
+    background-color: rgb(169, 247, 91);
+
+    height: 2.7em;
+    width: inherit;
+
+    display: flex;
+    align-items: row;
+
+}
+
+.side_4 {
+    background-color: rgb(83, 153, 13);
+
+    height: 8em;
+    width: inherit;
+
+    display: flex;
+    align-items: row;
+
+}
+
+.side_5 {
+    background-color: rgb(169, 233, 106);
+
+    height: 2.9em;
+    width: inherit;
+
+    display: flex;
+    align-items: row;
+
+}
+
+.side_6 {
+    background-color: rgb(84, 150, 18);
+
+    height: 2.3em;
+    width: inherit;
+
+    display: flex;
+    align-items: row;
+
+}
+
+.side_7 {
+    background-color: rgb(126, 224, 28);
+
+    height: 0.8em;
+    width: inherit;
+
+    display: flex;
+    align-items: row;
+}
+/* side lvl 3 */
+.side_2_1{
+    background-color: crimson;
+
+    height: inherit;
+    width: 3.5em;
+
+
+}
+.side_2_2{
+    background-color: rgb(138, 36, 57);
+
+    height: inherit;
+    width: 6em;
+
+
+}
+.side_3_1{
+    background-color: rgb(230, 73, 104);
+
+    height: inherit;
+    width: 0.8em;
+
+
+}
+.side_3_2{
+    background-color: rgb(184, 104, 120);
+
+    height: inherit;
+    width: 2.7em;
+
+
+}
+.side_3_3{
+    background-color: rgb(160, 41, 65);
+
+    height: inherit;
+    width: 6em;
+
+
+}
+.side_4_1{
+    background-color: rgb(184, 111, 126);
+
+    height: inherit;
+    width: 0.8em;
+
+
+}
+.side_4_2{
+    background-color: rgb(153, 23, 49);
+
+    height: inherit;
+    width: 8.7em;
+
+
+}
+.side_5_1{
+    background-color: rgb(224, 86, 113);
+
+    height: inherit;
+    width: 2.9em;
+
+
+}
+.side_5_2{
+    background-color: rgb(148, 30, 53);
+
+    height: inherit;
+    width: 1.6em;
+
+
+}
+.side_5_3{
+    background-color: rgb(190, 79, 101);
+
+    height: inherit;
+    width: 5em;
+
+
+}
+.side_6_1{
+    background-color: rgb(146, 21, 46);
+
+    height: inherit;
+    width: 4.5em;
+
+
+}
+.side_6_2{
+    background-color: rgb(161, 49, 72);
+
+    height: inherit;
+    width: 5em;
+
+
+}
+/* center */
+
+.center {
+    background-color: rgb(0, 217, 255);
+
     display: flex;
     flex-direction: column;
-}
+    align-items: row;
+    justify-content: row;
 
-.mainThreeRight {
-    background-color: rgba(100, 237, 118, 0);
-    
     height: 20.5em;
-    width: 9.5em;
- 
-    display: flex;
-    justify-content: left;
-    align-items: column;
+    width: 8.5em;
+}
+/* center lvl 2 */
+.center_1 {
+    background-color: rgb(71, 194, 231);
+
+    height: 0.8em;
+    width: inherit;
 }
 
-/* Level 2 mainThreeLeft */
+.center_2 {
+    background-color: rgb(32, 105, 128);
 
-.mainThreeLeft1 {
-    background-color: rgba(128, 255, 0, 0);
-
-    height: 0.5em;
-    width: 9.5em;
-
-}
-.mainThreeLeft2 {
-    background-color: rgba(128, 255, 0, 0);
-
-    height: 1.8em;
-    width: 9.5em;
-
-    display: flex;
-    flex-direction: row;
-}
-.mainThreeLeft2_1 {
-    background-color: rgba(250, 128, 114, 0);
-
-    height: 1.8em;
-    width: 7.7em; 
-
-}
-.mainThreeLeft2_2 {
-    background-color: salmon;
-
-    height: 1.8em;
-    width: 1.8em;
-
-    border-radius: 100% 0% 0% 0%;
-    transform: ;
-}
-.mainThreeLeft3 {
-    background-color: chartreuse;
-
-    height: 1.8em;
-    width: 9.5em;
-
-    display: flex
-}
-.mainThreeLeft4 {
-    background-color: chartreuse;
-
-    height: 1.8em;
-    width: 9.5em;
-
-    display: flex
-}
-.mainThreeLeft5 {
-    background-color: chartreuse;
-
-    height: 9em;
-    width: 9.5em;
-
-    display: flex
-}
-.mainThreeLeft6 {
-    background-color: chartreuse;
-
-    height: 1.8em;
-    width: 9.5em;
-
-    display: flex
-}
-.mainThreeLeft7 {
-    background-color: chartreuse;
-
-    height: 2.1em;
-    width: 9.5em;
-
-    display: flex
-}
-.mainThreeLeft8 {
-    background-color: rgba(128, 255, 0, 0);
-
-    height: 1.7em;
-    width: 9.5em;
+    height: 0.8em;
+    width: inherit;
 }
 
-/* Level 2 mainThreeMid */
+.center_3 {
+    background-color: rgb(71, 194, 231);
 
-.mainThreeMid1 {
-    background-color: rgba(139, 69, 19, 0);
-    
-    height: 0.5em;
-    width: 15em;
-}
-.mainThreeMid1_1 {
-    background-color: chartreuse;
-    
-    height: 0.5em;
-    width: 7.5em;
-
-    border-radius: 100% 0% 0% 0%;
-}
-.mainThreeMid1_2 {
-    background-color: chartreuse;
-    
-    height: 0.5em;
-    width: 7.5em;
-
-    border-radius: 0% 100% 0% 0%;
-}
-.mainThreeMid2 {
-    background-color: chartreuse;
-    
-    height: 18.3em;
-    width: 15em;
-}
-.mainThreeMid3 {
-    background-color: rgba(128, 255, 0, 0);
-    
-    height: 1.7em;
-    width: 15em;
-}
-.mainThreeMid3_1 {
-    background-color: chartreuse;
-    
-    height: 1.7em;
-    width: 7.5em;
-
-    border-radius: 0% 0% 0% 100%;
-}
-.mainThreeMid3_2 {
-    background-color: rgba(139, 69, 19, 0);
-    
-    height: 1.7em;
-    width: 7.5em;
-
-    border-radius: 0% 0% 100% 0%;
+    height: 2.2em;
+    width: inherit;
 }
 
+.center_4 {
+    background-color: rgb(14, 108, 136);
 
-/* <div class="mainThreeMid">
-            <div class="mainThreeMid1">
-                <div class="mainThreeMid1_1"></div>
-                <div class="mainThreeMid1_2"></div>
-            </div>
-            <div class="mainThreeMid2"></div>
-            <div class="mainThreeMid3">
-                
-                <div class="mainThreeMid3_1"></div>
-                <div class="mainThreeMid3_2"></div>
-            </div>
-        */
+    height: 10.7em;
+    width: inherit;
+}
+
+.center_5 {
+    background-color: rgb(96, 173, 197);
+
+    height: 2.9em;
+    width: inherit;
+}
+
+.center_6 {
+    background-color: rgb(78, 128, 143);
+
+    height: 2.3em;
+    width: inherit;
+}
+
+.center_7 {
+    background-color: rgb(20, 124, 156);
+
+    height: 0.8em;
+    width: inherit;
+}
