@@ -5,7 +5,7 @@ body {
     height: 100vh;
 
     display: flex;
-    justify-content: center;
+    flex-direction: row;
     align-items: center;
 
 }
@@ -20,6 +20,12 @@ body {
     height: 20.5em;
     width: 18em;
 }
+
+.universe_2 {
+    transform: rotateY(-180deg);
+
+
+} 
 
 /* side */
 
