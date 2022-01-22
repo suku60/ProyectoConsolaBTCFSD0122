@@ -224,6 +224,9 @@ body {
 
     height: 0.8em;
     width: inherit;
+
+    display: flex;
+    align-items: row;
 }
 
 .center_2 {
@@ -231,6 +234,9 @@ body {
 
     height: 0.8em;
     width: inherit;
+
+    display: flex;
+    align-items: row;
 }
 
 .center_3 {
@@ -238,6 +244,9 @@ body {
 
     height: 2.2em;
     width: inherit;
+
+    display: flex;
+    align-items: row;
 }
 
 .center_4 {
@@ -245,6 +254,9 @@ body {
 
     height: 10.7em;
     width: inherit;
+
+    display: flex;
+    align-items: row;
 }
 
 .center_5 {
@@ -252,6 +264,9 @@ body {
 
     height: 2.9em;
     width: inherit;
+
+    display: flex;
+    align-items: row;
 }
 
 .center_6 {
@@ -259,6 +274,9 @@ body {
 
     height: 2.3em;
     width: inherit;
+
+    display: flex;
+    align-items: row;
 }
 
 .center_7 {
@@ -266,4 +284,83 @@ body {
 
     height: 0.8em;
     width: inherit;
+
+    display: flex;
+    align-items: row;
 }
+/* center lvl 3 */
+
+
+
+.center_1_1 {
+    background-color: khaki;
+
+    height: inherit;
+    width: 1em;
+ }
+.center_1_2 {
+    background-color: rgb(184, 169, 43);
+
+    height: inherit;
+    width: 7.5em;
+ }
+.center_3_1 {
+    background-color: rgb(148, 143, 101);
+
+    height: inherit;
+    width: 2.8em;
+ }
+.center_3_2 {
+    background-color: rgb(182, 166, 27);
+
+    height: inherit;
+    width: 1.2em;
+ }
+.center_3_3 {
+    background-color: rgb(212, 207, 154);
+
+    height: inherit;
+    width: 4.5em;
+ }
+.center_4_1 {
+    background-color: rgb(165, 153, 48);
+
+    height: inherit;
+    width: 2.8em;
+ }
+.center_4_2 {
+    background-color: rgb(207, 202, 149);
+
+    height: inherit;
+    width: 1.2em;
+ }
+.center_4_3 {
+    background-color: rgb(104, 95, 16);
+
+    height: inherit;
+    width: 4.5em;
+ }
+.center_5_1 {
+    background-color: rgb(201, 195, 140);
+
+    height: inherit;
+    width: 4.5em;
+ }
+.center_5_2 {
+    background-color: rgb(179, 163, 26);
+
+    height: inherit;
+    width: 4em;
+ }
+.center_7_1 {
+    background-color: khaki;
+
+    height: inherit;
+    width: 4.8em;
+ }
+.center_7_2 {
+    background-color: rgb(109, 100, 22);
+
+    height: inherit;
+    width: 3.7em;
+ }
