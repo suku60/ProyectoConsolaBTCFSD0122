@@ -7,8 +7,19 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
 
 }
+
+.god {
+    transform: skew(1deg,1deg);
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
 
 .universe {
     display: flex;
@@ -149,7 +160,7 @@ body {
 }
 
 .side_2_2_2 {
-    background-color: blue;
+    background-color: rgba(0, 0, 255, 0);
 
     height: 2.2em;
     width: inherit;
@@ -178,7 +189,7 @@ body {
 }
 
 .side_button_3 {
-    background-color: rgb(255, 0, 51);
+    background-color: red;
 
     height: inherit;
     width: 4em;
@@ -186,10 +197,10 @@ body {
 }
 
 .side_button {
-    background-color: rgb(248, 248, 248);
+    background-color: yellow;
     
     height: inherit;
-    widthinherit;
+    width: inherit;
 
     border-radius: 0% 0% 80% 0%;
 
@@ -207,7 +218,7 @@ body {
 }
 
 .side_3_2 {
-    background-color: rgb(184, 104, 120);
+    background-color: red;
 
     height: inherit;
     width: 2.7em;
@@ -218,7 +229,7 @@ body {
 }
 
 .side_3_3 {
-    background-color: rgb(160, 41, 65);
+    background-color: red;
 
     height: inherit;
     width: 6em;
@@ -233,18 +244,18 @@ body {
     width: 0em;
 
     border-left: 0.8em solid transparent;
-    border-bottom: 8em solid crimson;
+    border-bottom: 8em solid red;
 }
 
 .side_4_2 {
-    background-color: rgb(153, 23, 49);
+    background-color: red;
 
     height: inherit;
     width: 8.7em;
 }
 
 .side_5_1 {
-    background-color: rgb(224, 86, 113);
+    background-color: red;
 
     height: inherit;
     width: 2.9em;
@@ -254,7 +265,7 @@ body {
 }
 
 .side_5_2 {
-    background-color: rgb(148, 30, 53);
+    background-color: red;
 
     height: inherit;
     width: 1.6em;
@@ -263,7 +274,7 @@ body {
 }
 
 .side_5_3 {
-    background-color: rgb(190, 79, 101);
+    background-color: red;
 
     height: inherit;
     width: 5em;
@@ -281,7 +292,7 @@ body {
 }
 
 .side_6_2 {
-    background-color: rgb(161, 49, 72);
+    background-color: red;
 
     height: inherit;
     width: 5em;
@@ -320,7 +331,7 @@ body {
 .center_1 {
     background-color: rgba(0, 217, 255, 0);
 
-    height: 0.8em;
+    height: 1.3em;
     width: inherit;
 
     display: flex;
@@ -328,9 +339,9 @@ body {
 }
 
 .center_2 {
-    background-color: khaki;
+    background-color: red;
 
-    height: 0.8em;
+    height: 0.3em;
     width: inherit;
 
     display: flex;
@@ -338,7 +349,7 @@ body {
 }
 
 .center_3 {
-    background-color: khaki;
+    background-color: red;
 
     height: 2.2em;
     width: inherit;
@@ -348,7 +359,7 @@ body {
 }
 
 .center_4 {
-    background-color: khaki;
+    background-color: red;
 
     height: 10.7em;
     width: inherit;
@@ -358,7 +369,7 @@ body {
 }
 
 .center_5 {
-    background-color: khaki;
+    background-color: red;
 
     height: 2.9em;
     width: inherit;
@@ -368,7 +379,7 @@ body {
 }
 
 .center_6 {
-    background-color: khaki;
+    background-color: red;
 
     height: 2.3em;
     width: inherit;
@@ -392,30 +403,30 @@ body {
 
 
 .center_1_1 {
-    background-color: khaki;
+    background-color: red;
 
     height: inherit;
-    width: 1em;
+    width: 2.8em;
 
     border-radius: 100% 0% 0% 0%;
 }
 
 .center_1_2 {
-    background-color: rgb(184, 169, 43);
+    background-color: red;
 
     height: inherit;
-    width: 7.5em;
+    width: 5.7em;
 }
 
 .center_3_1 {
-    background-color: rgb(148, 143, 101);
+    background-color: red;
 
     height: inherit;
     width: 1.6em;
 }
 
 .center_3_2 {
-    background-color: rgb(182, 166, 27);
+    background-color: khaki;
 
     height: inherit;
     width: 1.3em;
@@ -424,38 +435,38 @@ body {
 }
 
 .center_3_3 {
-    background-color: rgb(212, 207, 154);
+    background-color: khaki;
 
     height: inherit;
     width: 5.6em;
 }
 
 .center_4_1 {
-    background-color: rgba(255, 0, 51, 0);
+    background-color: red;
 
     height: 0em;
     width: 0em;
 
     border-left: 1.6em solid transparent;
-    border-bottom: 10.7em solid rgb(0, 0, 0);
+    border-bottom: 10.7em solid khaki;
 }
 
 .center_4_2 {
-    background-color: rgb(207, 202, 149);
+    background-color: khaki;
 
     height: inherit;
     width: 1.3em;
 }
 
 .center_4_3 {
-    background-color: rgb(104, 95, 16);
+    background-color: darkmagenta;
 
     height: inherit;
     width: 5.6em;
 }
 
 .center_5_1 {
-    background-color: rgb(201, 195, 140);
+    background-color: khaki;
 
     height: inherit;
     width: 4.5em;
@@ -464,14 +475,14 @@ body {
 }
 
 .center_5_2 {
-    background-color: rgb(179, 163, 26);
+    background-color: khaki;
 
     height: inherit;
     width: 4em;
 }
 
 .center_7_1 {
-    background-color: khaki;
+    background-color: red;
 
     height: inherit;
     width: 4.8em;
@@ -483,7 +494,7 @@ body {
 }
 
 .center_7_2 {
-    background-color: rgb(109, 100, 22);
+    background-color: red;
 
     height: inherit;
     width: 3.7em;
