@@ -184,6 +184,8 @@ body {
     width: 3.7em;
 
     border-radius: 80% 0% 0% 0%;
+    
+    transition: 0.2s;
 
 }
 
@@ -194,6 +196,8 @@ body {
     width: 3.7em;
 
     border-radius: 100% 0% 0% 0%;
+
+    transition: 0.2s;
 
 }
 
