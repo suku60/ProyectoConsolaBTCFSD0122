@@ -249,7 +249,8 @@ body {
     width: 0em;
 
     border-left: 0.8em solid transparent;
-    border-bottom: 8em solid red;
+    border-bottom: 7em solid red;
+    
 }
 
 .side_4_2 {
@@ -257,6 +258,121 @@ body {
 
     height: inherit;
     width: 8.7em;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* arrows */
+
+.side_button_arrow_box {
+    background-color: rgba(255, 105, 180, 0.678);
+
+    height: 6em;
+    width: 6em;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.side_button_arrow_left {
+    background-color: rgba(240, 240, 0, 0.644);
+
+    height: inherit;
+    width: 2em;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.side_button_arrow_left_1 {
+    background-color: lawngreen;
+
+    height: 2em;
+    width: inherit;
+    
+}
+.side_button_arrow_left_2 {
+    background-color: rgba(0, 38, 252, 0.377);
+
+    height: 2em;
+    width: inherit;
+    
+}
+.side_button_arrow_left_3 {
+    background-color: lawngreen;
+
+    height: 2em;
+    width: inherit;
+    
+}
+.side_button_arrow_mid {
+    background-color: rgba(240, 28, 0, 0.452);
+
+    height: inherit;
+    width: 2em;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.side_button_arrow_mid_1 {
+    background-color: rgb(38, 0, 252);
+
+    height: 2em;
+    width: inherit;
+    
+}
+.side_button_arrow_mid_2 {
+    background-color: rgb(252, 0, 13);
+
+    height: 2em;
+    width: inherit;
+    
+}
+.side_button_arrow_mid_3 {
+    background-color: rgb(55, 0, 252);
+
+    height: 2em;
+    width: inherit;
+    
+}
+.side_button_arrow_right {
+    background-color: rgba(240, 0, 100, 0.644);
+
+    height: inherit;
+    width: 2em;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.side_button_arrow_right_1 {
+    background-color: lawngreen;
+
+    height: 2em;
+    width: inherit;
+    
+}
+.side_button_arrow_right_2 {
+    background-color: rgb(46, 0, 252);
+
+    height: 2em;
+    width: inherit;
+    
+}
+.side_button_arrow_right_3 {
+    background-color: lawngreen;
+
+    height: 2em;
+    width: inherit;
+    
 }
 
 .side_5_1 {
