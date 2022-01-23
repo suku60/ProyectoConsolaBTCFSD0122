@@ -268,7 +268,7 @@ body {
 /* arrows */
 
 .side_button_arrow_box {
-    background-color: rgba(255, 105, 180, 0.678);
+    background-color: rgba(255, 105, 180, 0);
 
     height: 6em;
     width: 6em;
@@ -279,7 +279,7 @@ body {
     justify-content: center;
 }
 .side_button_arrow_left {
-    background-color: rgba(240, 240, 0, 0.644);
+    background-color: rgba(240, 240, 0, 0);
 
     height: inherit;
     width: 2em;
@@ -290,7 +290,7 @@ body {
     align-items: center;
 }
 .side_button_arrow_left_1 {
-    background-color: lawngreen;
+    background-color: rgba(126, 252, 0, 0);
 
     height: 2em;
     width: inherit;
@@ -301,10 +301,12 @@ body {
 
     height: 2em;
     width: inherit;
+
+    border-radius: 20% 0% 0% 20%;
     
 }
 .side_button_arrow_left_3 {
-    background-color: lawngreen;
+    background-color: rgba(126, 252, 0, 0);
 
     height: 2em;
     width: inherit;
@@ -327,9 +329,12 @@ body {
     height: 2em;
     width: inherit;
     
+
+    border-radius: 20% 20% 0% 0%;
+    
 }
 .side_button_arrow_mid_2 {
-    background-color: rgb(252, 0, 13);
+    background-color: rgb(222, 235, 234);
 
     height: 2em;
     width: inherit;
@@ -340,6 +345,9 @@ body {
 
     height: 2em;
     width: inherit;
+    
+
+    border-radius: 0% 0% 20% 20%;
     
 }
 .side_button_arrow_right {
@@ -354,7 +362,7 @@ body {
     align-items: center;
 }
 .side_button_arrow_right_1 {
-    background-color: lawngreen;
+    background-color: rgba(126, 252, 0, 0);
 
     height: 2em;
     width: inherit;
@@ -365,14 +373,102 @@ body {
 
     height: 2em;
     width: inherit;
+
+    border-radius: 0% 20% 20% 0%;
     
 }
 .side_button_arrow_right_3 {
-    background-color: lawngreen;
+    background-color: rgba(126, 252, 0, 0);
 
     height: 2em;
     width: inherit;
     
+}
+
+/* A/B Buttons */
+.side_button_box_left { background-color: rgba(240, 230, 140, 0); 
+
+    height: inherit;
+    width: 2em;
+
+    display: flex;
+    flex-direction: column;
+}
+.side_button_box_left_1 { background-color: khaki;
+
+    height: 2em;
+    width: inherit;
+
+    border-radius: 100% 100% 100% 100%;
+
+}
+.side_button_box_left_2 { background-color: rgba(240, 230, 140, 0);
+
+    height: 2em;
+    width: inherit;
+
+}
+.side_button_box_left_3 { background-color: rgba(240, 230, 140, 0);
+
+    height: 2em;
+    width: inherit;
+
+}
+.side_button_box_mid { background-color: rgba(240, 230, 140, 0); 
+
+    height: inherit;
+    width: 2em;
+
+    display: flex;
+    flex-direction: column;
+
+}
+.side_button_box_mid_1 { background-color: rgba(240, 230, 140, 0);
+
+    height: 2em;
+    width: inherit;
+
+}
+.side_button_box_mid_2 { background-color: rgba(240, 230, 140, 0);
+
+    height: 2em;
+    width: inherit;
+
+}
+.side_button_box_mid_3 { background-color: rgba(240, 230, 140, 0);
+
+    height: 2em;
+    width: inherit;
+
+}
+.side_button_box_right { background-color: rgba(240, 230, 140, 0); 
+
+    height: inherit;
+    width: 2em;
+
+    display: flex;
+    flex-direction: column;
+
+}
+.side_button_box_right_1 { background-color: rgba(240, 230, 140, 0);
+
+    height: 2em;
+    width: inherit;
+
+}
+.side_button_box_right_2 { background-color: khaki;
+
+    height: 2em;
+    width: inherit;
+
+    border-radius: 100% 100% 100% 100%;
+
+}
+.side_button_box_right_3 { background-color: rgba(240, 230, 140, 0);
+
+    height: 2em;
+    width: inherit;
+
 }
 
 .side_5_1 {
@@ -400,6 +496,90 @@ body {
     height: inherit;
     width: 5em;
 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* side bot buttons start select */
+
+.side_botBox { background-color: rgba(240, 230, 140, 0);
+
+    height: 1.5em;
+    width: 3em;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.side_botBox_1 { 
+    background-color: rgba(0, 0, 255, 0);
+
+    height: 0.5em;
+    width: inherit;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.side_botBox_1_1 { 
+    background-color: rgba(0, 0, 255, 0.678);
+
+    height: inherit;
+    width: 2.5em;
+
+    border-radius: 20% 0% 0% 20%;
+
+}
+.side_botBox_1_2 { 
+    background-color: blue;
+
+    height: inherit;
+    width: 0.5em;
+
+    border-radius: 100% 100% 100% 100%;
+
+}
+.side_botBox_2 { 
+    background-color: rgba(0, 0, 255, 0);
+
+    height: 0.5em;
+    width: inherit;
+
+}
+.side_botBox_3 { 
+    background-color: rgba(0, 0, 255, 0);
+
+    height: 0.5em;
+    width: inherit;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.side_botBox_3_1 { 
+    background-color: rgba(0, 0, 255, 0.719);
+
+    height: inherit;
+    width: 2.5em;
+
+    border-radius: 20% 0% 0% 20%;
+}
+.side_botBox_3_2 { 
+    background-color: blue;
+
+    height: inherit;
+    width: 0.5em;
+
+    border-radius: 100% 100% 100% 100%;
 
 }
 
